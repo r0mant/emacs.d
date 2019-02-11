@@ -1,0 +1,12 @@
+/home/r0mant/code/mailgun/docker/postgres/Dockerfile
+/home/r0mant/code/mailgun/docker/postgres/#Dockerfile#
+/home/r0mant/code/mailgun/docker/cassandra/start.sh
+/home/r0mant/code/mailgun/docker/cassandra/#start.sh#
+/home/r0mant/code/mailgun/docker/cassandra/Dockerfile
+/home/r0mant/code/mailgun/docker/cassandra/#Dockerfile#
+/home/r0mant/code/mailgun/mgcore/mgcore/cassandra/messages.py
+/home/r0mant/code/mailgun/mgcore/mgcore/cassandra/#messages.py#
+/home/r0mant/code/mailgun/docker/launch.py
+/home/r0mant/code/mailgun/docker/#launch.py#
+/home/r0mant/code/chef-repo/cookbooks/cassandra/templates/default/cassandra.yaml.erb
+/home/r0mant/code/chef-repo/cookbooks/cassandra/templates/default/#cassandra.yaml.erb#

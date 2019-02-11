@@ -1,0 +1,10 @@
+/project/mailgun/analytics/tests/model/event_test.py
+/project/mailgun/analytics/tests/model/#event_test.py#
+/project/mailgun/analytics/analytics/model/event.py
+/project/mailgun/analytics/analytics/model/#event.py#
+/project/mailgun/analytics/analytics/lib/fixtures.py
+/project/mailgun/analytics/analytics/lib/#fixtures.py#
+/project/mailgun/mgcore/mgcore/lib/events/encoding.py
+/project/mailgun/mgcore/mgcore/lib/events/#encoding.py#
+/project/mailgun/mgcore/mgcore/lib/events/addressing.py
+/project/mailgun/mgcore/mgcore/lib/events/#addressing.py#

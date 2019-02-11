@@ -1,0 +1,12 @@
+/project/mailgun/mgcore/mgcore/lib/events/processing.py
+/project/mailgun/mgcore/mgcore/lib/events/#processing.py#
+/project/mailgun/mgcore/tests/events/processing_test.py
+/project/mailgun/mgcore/tests/events/#processing_test.py#
+/project/mailgun/api/tests/campaigns_test.py
+/project/mailgun/api/tests/#campaigns_test.py#
+/project/mailgun/mgcore/mgcore/stats/counter.py
+/project/mailgun/mgcore/mgcore/stats/#counter.py#
+/project/mailgun/mgcore/tests/stats/counters_test.py
+/project/mailgun/mgcore/tests/stats/#counters_test.py#
+/project/mailgun/home/klizhentas/stats.py
+/project/mailgun/home/klizhentas/#stats.py#

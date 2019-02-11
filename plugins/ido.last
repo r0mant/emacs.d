@@ -1,0 +1,33 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/r0mant/code/" . "kubernetes/")
+ ("/home/r0mant/" . "code/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/r0mant/code/kubernetes/"
+ "/home/r0mant/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Vagrantfile"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/r0mant/code/kubernetes/" (22220 41910 0 0) "contrib/" "README.md" "third_party/" "LICENSE" "cluster/" "examples/" "docs/" "./" "Vagrantfile" "../" "server/" "platforms/")
+
+ ("/home/r0mant/code/" (22227 35335 152230 897000) "./" "../" "kubernetes/")
+
+ ("/home/r0mant/.emacs.d/" (22227 36096 163443 0) "git-gutter-fringe.el" "session.104ef266cd12070834137943546251575000000022590040" "color-theme-solarized/" "hide-comnt.el" "pychecker" "session.10b1cb796e70f811f2139024468894617200000025380043" "go-mode.el" ".emacs.desktop.lock" "git-gutter.el" "python-mode.el-6.1.1/" "run-queue.sh" "session.10213e65aca4b2fac13957771803165100000026400043" "session.103bd0aa7dfa83b4e913809030582059500000023530041" ".directory" "session.109c3b9578f212e5f1137727463496196600000022860039" "cl-lib.el" "deploy-master.sh" "powerline/" "flymake-cursor.el" "setnu.el" "magit.el" "isearch+.el" "abbrev_defs" "magit-key-mode.el" "session.10be9ee5cea5b336dd139628460763918000000030350048" "elpa/" "init.el" ".dropbox" "window-number.el" "go-mode-autoloads.el" "session.1035056f1a653d300a139106423358848900000023340045" "pylookup/" "python-mode.el.backup" "thing-cmds.el" ".emacs.desktop" "tramp" "highlight-symbol.el" "session.10c41e4e46d28bf6dd137589009757172500000022630038" "jinja2-mode.el" "themes/" "session.10839924afa9a95007138540195135278800000025350043" "session.10c3355e1b49643a5a139689281040109200000029390044" "%backup%~" "bubbleberry-theme.el" "fringe-helper.el" "flymake-point.el" "init.el~" "multi-term.el" "./" "mo-git-blame.el" "../" "python-pep8.el" "run-api.sh" "lua-mode.el" "python-pylint.el" "color-theme.el" "ido.last" "python-mode.el-6.2.0/" "run-website.sh" "session.10d81db388b58d4fbb13964553524417900000030410044" "buffer-move.el" "php-mode.el" "run-analytics.sh" "wrap-region.el" "fill-column-indicator.el" "session.10131650ae64b4991d138073401833899600000025030040" "run-jobs.sh" "auto-save-list/" "Inconsolata-LGC-master/" "jinja2.el" "nosetests.sh" "session.1019bbff64aaef8eda137641772876165100000020600039")
+
+ ("/home/r0mant/" (22227 35960 548346 881000) ".cache/" ".bashrc" ".sudo_as_admin_successful" ".gconf/" "examples.desktop" ".bash_logout" ".dbus/" ".ICEauthority" "Videos/" ".dropbox-dist/" ".bash_history" ".dropbox/" ".macromedia/" ".local/" ".gnome/" "Pictures/" "Dropbox/" "GOG Games/" ".emacs.d/" "Downloads/" "Templates/" "Music/" ".adobe/" ".dmrc" ".emacs-backups/" "Desktop/" ".mozilla/" ".config/" ".lesshst" "code/" "./" "../" ".pki/" "Documents/" ".Xauthority" ".profile" ".xsession-errors" "Public/" ".aptitude/" ".xsession-errors.old")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

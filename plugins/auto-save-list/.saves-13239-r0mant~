@@ -1,0 +1,4 @@
+/project/mailgun/postfix/incoming/patches/all.patch
+/project/mailgun/postfix/incoming/patches/#all.patch#
+/project/mailgun/postfix/postfix-2.8.0/src/smtpd/smtpd_check.c
+/project/mailgun/postfix/postfix-2.8.0/src/smtpd/#smtpd_check.c#
