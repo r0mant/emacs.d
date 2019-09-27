@@ -27,8 +27,8 @@
 ;(mouse-avoidance-mode 'banish)
 
 (global-hl-line-mode 1)
-(set-face-background 'hl-line "#222444")
-(set-face-background 'hl-line "#eee8d5")
+;; (set-face-background 'hl-line "#222444")
+;; (set-face-background 'hl-line "#eee8d5")
 ; turn off line highlighting mode for the terminal buffer
 ;; (make-variable-buffer-local 'global-hl-line-mode)
 ;; (add-hook 'term-mode-hook '(lambda () (setq global-hl-line-mode nil)))
@@ -85,7 +85,7 @@
 
 ;(load-theme 'solarized-light)
 
-(add-hook 'after-init-hook (lambda () (load-theme 'solarized-light t)))
+(add-hook 'after-init-hook (lambda () (load-theme 'nord t)))
 
 ;; select theme - first list element is for windowing system, second is for console/terminal
 (setq color-theme-choices '(color-theme-mailgun color-theme-tango color-theme-hober))
@@ -385,11 +385,13 @@
 (require 'jinja2-mode)
 
 ; Go
-(setenv "PATH" (concat "/usr/local/go/bin:/home/r0mant/code/goworld/bin:/Users/r0mant/code/goworld/bin:" (getenv "PATH")))
+(setenv "PATH" (concat "/usr/local/go/bin:/home/r0mant/code/goworld/bin:/code/go/bin:/Users/r0mant/code/goworld/bin:" (getenv "PATH")))
 (setq exec-path (append exec-path '("/Users/r0mant/code/goworld/bin")))
 (setq exec-path (append exec-path '("/home/r0mant/code/goworld/bin")))
+(setq exec-path (append exec-path '("/code/go/bin")))
 (setq exec-path (append exec-path '("/usr/local/go/bin")))
-(setenv "GOPATH" "/home/r0mant/code/goworld")
+;(setenv "GOPATH" "/home/r0mant/code/goworld")
+(setenv "GOPATH" "/code/go")
 (require 'go-mode-autoloads)
 (setq gofmt-command "goimports")
 (add-hook 'before-save-hook 'gofmt-before-save)
@@ -651,10 +653,10 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8abee8a14e028101f90a2d314f1b03bed1cde7fd3f1eb945ada6ffc15b1d7d65" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "01ce486c3a7c8b37cf13f8c95ca4bb3c11413228b35676025fdf239e77019ea1" default)))
+    ("850213aa3159467c21ee95c55baadd95b91721d21b28d63704824a7d465b3ba8" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8abee8a14e028101f90a2d314f1b03bed1cde7fd3f1eb945ada6ffc15b1d7d65" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "01ce486c3a7c8b37cf13f8c95ca4bb3c11413228b35676025fdf239e77019ea1" default)))
  '(package-selected-packages
    (quote
-    (rjsx-mode terraform-mode tango-2-theme solarized-theme reykjavik-theme protobuf-mode markdown-mode json-mode groovy-mode go-rename go-playground go-guru docker))))
+    (yaml-mode nord-theme rjsx-mode terraform-mode tango-2-theme solarized-theme reykjavik-theme protobuf-mode markdown-mode json-mode groovy-mode go-rename go-playground go-guru docker))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
